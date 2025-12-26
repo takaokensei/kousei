@@ -106,6 +106,7 @@ fn main() {
         .plugin(tauri_plugin_log::Builder::default().build())
         .plugin(tauri_plugin_shell::init())
         .plugin(tauri_plugin_fs::init())
+        .plugin(tauri_plugin_dialog::init())
         .invoke_handler(tauri::generate_handler![compile_latex])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

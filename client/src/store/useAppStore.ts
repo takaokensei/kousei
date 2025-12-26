@@ -1,8 +1,7 @@
 import { create } from 'zustand';
 import { TauriBridge, type Diagnostic } from '../services/TauriBridge';
 import { convertFileSrc } from '@tauri-apps/api/core';
-
-import { writeTextFile } from '@tauri-apps/plugin-fs';
+import { writeTextFile, readTextFile } from '@tauri-apps/plugin-fs';
 
 interface AppState {
     code: string;
@@ -12,17 +11,14 @@ interface AppState {
     diagnostics: Diagnostic[];
     setCode: (code: string) => void;
     setFilePath: (path: string) => void;
+    loadFile: (path: string) => Promise<void>;
     compile: () => Promise<void>;
 }
 
 export const useAppStore = create<AppState>((set, get) => ({
     // Default file path
     filePath: 'c:\\LaTeX\\diretrizes_pessoais.tex',
-    code: `% Selecione ou digite o caminho do arquivo acima para começar.
-\\documentclass{article}
-\\begin{document}
-Kousei - Editor Nativo
-\\end{document}`,
+    code: '', // Starts empty, will load on mount
 
     isCompiling: false,
     pdfUrl: null,
@@ -30,6 +26,18 @@ Kousei - Editor Nativo
 
     setCode: (code) => set({ code }),
     setFilePath: (filePath) => set({ filePath }),
+
+    loadFile: async (path) => {
+        if (!path) return;
+        try {
+            console.log(`[Store] Reading file: ${path}`);
+            const content = await readTextFile(path);
+            set({ code: content });
+        } catch (err) {
+            console.error('[Store] Failed to read file:', err);
+            set({ code: `% Failed to load file: ${path}\n% Error: ${err}\n% Please check path and permissions.` });
+        }
+    },
 
     compile: async () => {
         const { filePath, code } = get();
@@ -42,9 +50,6 @@ Kousei - Editor Nativo
             await writeTextFile(filePath, code);
 
             // 2. Prepare Path Logic
-            // Split path into directory and filename for the Rust backend
-            // Example: c:\LaTeX\file.tex -> dir: c:\LaTeX, file: file.tex
-            // Basic Windows path parsing
             const lastSlash = filePath.lastIndexOf('\\');
             const projectPath = filePath.substring(0, lastSlash);
             const mainFile = filePath.substring(lastSlash + 1);
@@ -57,8 +62,8 @@ Kousei - Editor Nativo
             if (result.success && result.pdf_path) {
                 const assetUrl = convertFileSrc(result.pdf_path);
                 const timestamp = new Date().getTime();
-                console.log('[AppStore] Asset URL:', assetUrl);
 
+                // Force update PDF preview logic
                 set({
                     pdfUrl: `${assetUrl}?t=${timestamp}`,
                     diagnostics: result.diagnostics

@@ -1,56 +1,53 @@
-import React, { useEffect, useRef } from 'react';
-import Editor, { type Monaco } from '@monaco-editor/react';
+import React from 'react';
+import MonacoEditor, { type OnMount } from '@monaco-editor/react';
 import { useAppStore } from '../store/useAppStore';
+import type * as Monaco from 'monaco-editor';
 
 const EditorPanel: React.FC = () => {
     const { code, setCode, diagnostics } = useAppStore();
-    const monacoRef = useRef<Monaco | null>(null);
-    const editorRef = useRef<any>(null);
+    const editorRef = React.useRef<Monaco.editor.IStandaloneCodeEditor | null>(null);
+    const monacoRef = React.useRef<typeof Monaco | null>(null);
 
-    const handleEditorDidMount = (editor: any, monaco: Monaco) => {
-        monacoRef.current = monaco;
+    const handleEditorDidMount: OnMount = (editor, monaco) => {
         editorRef.current = editor;
+        monacoRef.current = monaco;
     };
 
-    // Effect to update errors/warnings (diagnostics)
-    useEffect(() => {
-        if (monacoRef.current && editorRef.current && diagnostics.length > 0) {
+    // Sync diagnostics with Monaco (markers)
+    React.useEffect(() => {
+        if (monacoRef.current && editorRef.current) {
             const model = editorRef.current.getModel();
             if (model) {
-                const markers = diagnostics.map(d => ({
-                    startLineNumber: d.line > 0 ? d.line : 1,
+                const markers: Monaco.editor.IMarkerData[] = diagnostics.map(d => ({
+                    startLineNumber: d.line || 1,
                     startColumn: 1,
-                    endLineNumber: d.line > 0 ? d.line : 1,
+                    endLineNumber: d.line || 1,
                     endColumn: 1000,
                     message: d.message,
-                    severity: d.severity === 'error'
-                        ? monacoRef.current!.MarkerSeverity.Error
-                        : monacoRef.current!.MarkerSeverity.Warning
+                    severity: d.severity === 'error' ? monacoRef.current!.MarkerSeverity.Error : monacoRef.current!.MarkerSeverity.Warning
                 }));
-                monacoRef.current.editor.setModelMarkers(model, 'owner', markers);
+                monacoRef.current.editor.setModelMarkers(model, "owner", markers);
             }
-        } else if (monacoRef.current && editorRef.current) {
-            // Clear markers if no diagnostics
-            const model = editorRef.current.getModel();
-            if (model) monacoRef.current.editor.setModelMarkers(model, 'owner', []);
         }
     }, [diagnostics]);
 
     return (
-        <div className="h-full w-full bg-bg font-sans">
-            <Editor
+        <div className="h-full w-full bg-[#1a1b26] relative overflow-hidden">
+            <MonacoEditor
                 height="100%"
-                defaultLanguage="latex"
+                width="100%"
+                language="latex"
                 theme="vs-dark"
                 value={code}
-                onChange={(value) => setCode(value || '')}
+                onChange={(val) => setCode(val || '')}
                 onMount={handleEditorDidMount}
                 options={{
                     minimap: { enabled: false },
                     fontSize: 14,
-                    fontFamily: 'JetBrains Mono, monospace',
                     wordWrap: 'on',
+                    automaticLayout: true,
                     scrollBeyondLastLine: false,
+                    fontFamily: 'JetBrains Mono',
                     padding: { top: 16 }
                 }}
             />

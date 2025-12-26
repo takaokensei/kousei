@@ -20,7 +20,7 @@
       }
     ],
     "security": {
-      "csp": null
+      "csp": "default-src 'self' 'unsafe-inline' 'unsafe-eval' asset: http://asset.localhost https://asset.localhost https://cdn.jsdelivr.net https://unpkg.com data: blob: filesystem:; frame-src 'self' asset: http://asset.localhost https://asset.localhost data: blob: filesystem:; connect-src 'self' https://cdn.jsdelivr.net https://unpkg.com;"
     }
   },
   "bundle": {

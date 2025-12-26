@@ -26,4 +26,5 @@ tauri-plugin-log = "2"
 tauri-plugin-shell = "2"
 tauri-plugin-fs = "2"
 regex = "1.10.4"
+tauri-plugin-dialog = "2"
 

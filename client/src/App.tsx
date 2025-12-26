@@ -3,83 +3,37 @@ import { Panel, PanelGroup, PanelResizeHandle } from 'react-resizable-panels';
 import EditorPanel from './components/EditorPanel';
 import PreviewPanel from './components/PreviewPanel';
 import { useAppStore } from './store/useAppStore';
-import { Play } from 'lucide-react';
-import clsx from 'clsx';
+import { Header } from './components/Header';
 
-function App() {
-  const { compile, isCompiling, setCode } = useAppStore();
+const App: React.FC = () => {
+  const { loadFile, filePath } = useAppStore();
 
-  // Load initial code (simulation of loading a file)
-  // Ideally this would come from an API reading the file
   useEffect(() => {
-    // For demo purposes, we are just keeping the default 'Hello World' in store or the user can paste
-    // In a real app, we would fetch file content here.
-  }, []);
+    // Initial load of the default file
+    if (filePath) {
+      loadFile(filePath);
+    }
+  }, []); // Run once on mount
 
   return (
-    <div className="h-screen w-screen flex flex-col bg-bg text-text overflow-hidden">
-      {/* Header / Toolbar */}
-      <header data-tauri-drag-region className="h-14 glass flex items-center justify-between px-4 z-20 shadow-md flex-shrink-0">
-        <div className="flex items-center gap-2 pointer-events-none">
-          <div className="w-3 h-3 rounded-full bg-red-500" />
-          <div className="w-3 h-3 rounded-full bg-yellow-500" />
-          <div className="w-3 h-3 rounded-full bg-green-500" />
-          <span className="ml-4 font-bold text-lg text-white font-mono tracking-tight">Kousei <span className="text-accent-blue font-normal text-xs align-top">v1.1</span></span>
-        </div>
+    <div className="h-screen w-screen flex flex-col bg-[#1a1b26] text-[#a9b1d6] overflow-hidden">
+      <Header />
 
-        <div className="flex-1 flex items-center justify-center max-w-xl mx-4">
-          <input
-            type="text"
-            value={useAppStore(s => s.filePath)}
-            onChange={(e) => useAppStore.getState().setFilePath(e.target.value)}
-            className="w-full h-8 px-3 rounded-md bg-[#16161e] border border-[#24283b] text-xs text-text focus:outline-none focus:border-accent-blue/50 font-mono transition-colors"
-            placeholder="C:\Absolute\Path\To\File.tex"
-          />
-        </div>
-
-        <div className="flex items-center gap-4">
-          <button
-            onClick={() => compile()}
-            disabled={isCompiling}
-            className={clsx(
-              "flex items-center gap-2 px-4 py-1.5 rounded-md font-medium text-sm transition-all",
-              "bg-accent-blue/10 text-accent-blue hover:bg-accent-blue/20 border border-accent-blue/20",
-              isCompiling && "opacity-50 cursor-not-allowed"
-            )}
-          >
-            <Play className="w-4 h-4 fill-current" />
-            {isCompiling ? 'Compiling...' : 'Compile'}
-          </button>
-        </div>
-      </header>
-
-      {/* Main Workspace */}
-      <main className="flex-1 relative flex flex-col min-h-0">
+      <main className="flex-1 flex flex-col min-h-0 overflow-hidden relative">
         <PanelGroup direction="horizontal" className="flex-1">
-
-          {/* Editor Area */}
-          <Panel defaultSize={50} minSize={20}>
+          <Panel defaultSize={50} minSize={20} className="flex flex-col">
             <EditorPanel />
           </Panel>
 
-          <PanelResizeHandle className="w-1 bg-[#16161e] hover:bg-accent-blue transition-colors" />
+          <PanelResizeHandle className="w-1 bg-[#16161e] hover:bg-[#7aa2f7] transition-colors relative flex items-center justify-center group z-10">
+            <div className="w-1 h-8 bg-gray-600 rounded-full group-hover:bg-[#7aa2f7]" />
+          </PanelResizeHandle>
 
-          {/* Preview Area */}
-          <Panel defaultSize={50} minSize={20}>
+          <Panel defaultSize={50} minSize={20} className="flex flex-col">
             <PreviewPanel />
           </Panel>
-
         </PanelGroup>
       </main>
-
-      {/* Status Bar (Optional) */}
-      <footer className="h-6 bg-[#16161e] border-t border-[#24283b] flex items-center px-4 text-xs text-slate-500">
-        <span>Ready</span>
-        <span className="mx-2">•</span>
-        <span>UTF-8</span>
-        <span className="mx-2">•</span>
-        <span>Latex Mode</span>
-      </footer>
     </div>
   );
 }

@@ -1,0 +1,6 @@
+
+> kousei@1.0.0 dev
+> ts-node src/server.ts
+
+[LaTeX Studio Server] Running on http://localhost:3001
+[Config] Ready to compile in user workspaces.

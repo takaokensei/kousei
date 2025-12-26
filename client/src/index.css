@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  background-color: #1a1b26;
+  color: #a9b1d6;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+/* Glassmorphism Utilities */
+.glass {
+  background: rgba(36, 40, 59, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(122, 162, 247, 0.1);
+}
+
+.glass-panel {
+  background: rgba(26, 27, 38, 0.8);
+  backdrop-filter: blur(12px);
+}

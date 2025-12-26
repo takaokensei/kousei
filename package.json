@@ -1,0 +1,15 @@
+{
+  "name": "kousei",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">\r   <h1>Kousei (構成)</h1>\r   <p>\r     <strong>The Art of Structured Composition.</strong><br>\r     A high-performance, local-first LaTeX IDE for precision engineering.\r   </p>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\" --kill-others --names \"SERVER,CLIENT\" -c \"magenta,blue\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

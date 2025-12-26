@@ -2,22 +2,26 @@ import { create } from 'zustand';
 import { TauriBridge, type Diagnostic } from '../services/TauriBridge';
 import { convertFileSrc } from '@tauri-apps/api/core';
 
+import { writeTextFile } from '@tauri-apps/plugin-fs';
+
 interface AppState {
     code: string;
+    filePath: string;
     isCompiling: boolean;
     pdfUrl: string | null;
     diagnostics: Diagnostic[];
     setCode: (code: string) => void;
+    setFilePath: (path: string) => void;
     compile: () => Promise<void>;
 }
 
-export const useAppStore = create<AppState>((set) => ({
-    // Mantendo o "Sad Path" para teste inicial
-    code: `% Teste de Erro (Sad Path)
+export const useAppStore = create<AppState>((set, get) => ({
+    // Default file path
+    filePath: 'c:\\LaTeX\\diretrizes_pessoais.tex',
+    code: `% Selecione ou digite o caminho do arquivo acima para começar.
 \\documentclass{article}
 \\begin{document}
-  Testando compilação com erro.
-  \\comandoinexistente % Este comando não existe!
+Kousei - Editor Nativo
 \\end{document}`,
 
     isCompiling: false,
@@ -25,30 +29,47 @@ export const useAppStore = create<AppState>((set) => ({
     diagnostics: [],
 
     setCode: (code) => set({ code }),
+    setFilePath: (filePath) => set({ filePath }),
 
     compile: async () => {
+        const { filePath, code } = get();
+        if (!filePath) return;
+
         set({ isCompiling: true, diagnostics: [] });
 
-        // Hardcoded path for Alpha V1
-        const projectPath = 'c:\\LaTeX';
-        const mainFile = 'diretrizes_pessoais.tex';
+        try {
+            // 1. Save File Logic
+            await writeTextFile(filePath, code);
 
-        const result = await TauriBridge.compile(projectPath, mainFile);
-        console.log('[AppStore] Compile Result:', result);
+            // 2. Prepare Path Logic
+            // Split path into directory and filename for the Rust backend
+            // Example: c:\LaTeX\file.tex -> dir: c:\LaTeX, file: file.tex
+            // Basic Windows path parsing
+            const lastSlash = filePath.lastIndexOf('\\');
+            const projectPath = filePath.substring(0, lastSlash);
+            const mainFile = filePath.substring(lastSlash + 1);
 
-        if (result.success && result.pdf_path) {
-            // Convert absolute local path to Tauri resource URL + cache busting
-            const assetUrl = convertFileSrc(result.pdf_path);
-            const timestamp = new Date().getTime();
-            console.log('[AppStore] Asset URL:', assetUrl);
+            console.log(`[Store] Saving to ${filePath} and Compiling...`);
 
-            set({
-                pdfUrl: `${assetUrl}?t=${timestamp}`,
-                diagnostics: result.diagnostics
-            });
-        } else {
-            console.error('[AppStore] Compilation Failed or No PDF:', result.logs);
-            set({ diagnostics: result.diagnostics });
+            const result = await TauriBridge.compile(projectPath, mainFile);
+            console.log('[AppStore] Compile Result:', result);
+
+            if (result.success && result.pdf_path) {
+                const assetUrl = convertFileSrc(result.pdf_path);
+                const timestamp = new Date().getTime();
+                console.log('[AppStore] Asset URL:', assetUrl);
+
+                set({
+                    pdfUrl: `${assetUrl}?t=${timestamp}`,
+                    diagnostics: result.diagnostics
+                });
+            } else {
+                console.error('[AppStore] Compilation Failed or No PDF:', result.logs);
+                set({ diagnostics: result.diagnostics });
+            }
+        } catch (err) {
+            console.error('[AppStore] FS/Compile Error:', err);
+            set({ diagnostics: [{ line: 0, message: `System Error: ${err}`, severity: 'error' }] });
         }
 
         set({ isCompiling: false });

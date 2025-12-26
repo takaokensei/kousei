@@ -27,6 +27,16 @@ function App() {
           <span className="ml-4 font-bold text-lg text-white font-mono tracking-tight">Kousei <span className="text-accent-blue font-normal text-xs align-top">v1.1</span></span>
         </div>
 
+        <div className="flex-1 flex items-center justify-center max-w-xl mx-4">
+          <input
+            type="text"
+            value={useAppStore(s => s.filePath)}
+            onChange={(e) => useAppStore.getState().setFilePath(e.target.value)}
+            className="w-full h-8 px-3 rounded-md bg-[#16161e] border border-[#24283b] text-xs text-text focus:outline-none focus:border-accent-blue/50 font-mono transition-colors"
+            placeholder="C:\Absolute\Path\To\File.tex"
+          />
+        </div>
+
         <div className="flex items-center gap-4">
           <button
             onClick={() => compile()}

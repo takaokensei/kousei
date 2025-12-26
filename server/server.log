@@ -1,0 +1,485 @@
+[LaTeX Studio Server] Running on http://localhost:3001
+[Config] Ready to compile in user workspaces.
+[Compiler] Spawning C:\Users\Cauã V\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex.exe in c:\LaTeX with args: -interaction=nonstopmode -synctex=1 -output-directory=./build diretrizes_pessoais.tex
+[Compiler Result] {
+  "success": true,
+  "pdfPath": "/pdf/diretrizes_pessoais.pdf",
+  "logs": "This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.4) (preloaded format=xelatex.fmt)\r\n restricted \\write18 enabled.\r\nentering extended mode\r\n(diretrizes_pessoais.tex\r\nLaTeX2e <2025-06-01> patch level 1\r\nL3 programming layer <2025-06-09>\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/base\\article.cls\r\nDocument Class: article 2025/01/22 v1.4n Standard LaTeX document class\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/base\\size12.clo))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/base\\inputenc.sty\r\n\r\nPackage inputenc Warning: inputenc package ignored with utf8 based engines.\r\n\r\n) (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/babel\\babel.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/babel\\xebabel.def)\r\n*************************************\r\n* Local config file bblopts.cfg used\r\n*\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/arabi\\bblopts.cfg)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/babel-portuges\\brazil.\r\nldf)) (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/base\\fontenc.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/lm\\t1lmr.fd))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/geometry\\geometry.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/graphics\\keyval.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/iftex\\ifvtex.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/iftex\\iftex.sty))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/geometry\\geometry.cfg)\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/frontendlayer\\tikz\r\n.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/basiclayer\\pgf.sty\r\n\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/utilities\\pgfrcs.s\r\nty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/utilities\\pgfuti\r\nl-common.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/utilities\\pgfuti\r\nl-latex.def)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/utilities\\pgfrcs\r\n.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf\\pgf.revision.tex\r\n)))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/basiclayer\\pgfcore\r\n.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/graphics\\graphicx.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/graphics\\graphics.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/graphics\\trig.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/graphics-cfg\\graphics.\r\ncfg)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/graphics-def\\xetex.def\r\n)))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/systemlayer\\pgfsys\r\n.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/systemlayer\\pgfs\r\nys.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/utilities\\pgfkey\r\ns.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/utilities\\pgfkey\r\nslibraryfiltered.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/systemlayer\\pgf.\r\ncfg)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/systemlayer\\pgfs\r\nys-xetex.def\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/systemlayer\\pgfs\r\nys-dvipdfmx.def\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/systemlayer\\pgfs\r\nys-common-pdf.def))))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/systemlayer\\pgfs\r\nyssoftpath.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/systemlayer\\pgfs\r\nysprotocol.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/xcolor\\xcolor.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/graphics-cfg\\color.cfg\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/graphics\\mathcolor.ltx\r\n))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nre.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmath.cod\r\ne.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathutil\r\n.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathpars\r\ner.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.basic.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.trigonometric.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.random.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.comparison.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.base.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.round.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.misc.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfunc\r\ntions.integerarithmetics.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathcalc\r\n.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmathfloa\r\nt.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfint.code\r\n.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrepoints.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrepathconstruct.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrepathusage.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrescopes.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nregraphicstate.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nretransformations.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrequick.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nreobjects.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrepathprocessing.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrearrows.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nreshade.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nreimage.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nreexternal.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrelayers.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nretransparency.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrepatterns.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/basiclayer\\pgfco\r\nrerdf.code.tex)))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/modules\\pgfmodul\r\neshapes.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/modules\\pgfmodul\r\neplot.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/compatibility\\pgfc\r\nomp-version-0-65.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/compatibility\\pgfc\r\nomp-version-1-18.sty))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/utilities\\pgffor.s\r\nty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/utilities\\pgfkeys.\r\nsty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/utilities\\pgfkey\r\ns.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pgf/math\\pgfmath.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/math\\pgfmath.cod\r\ne.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/utilities\\pgffor\r\n.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz\\tikz.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/libraries\\pgflib\r\nraryplothandlers.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/modules\\pgfmodul\r\nematrix.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibrarytopaths.code.tex)))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcolorbox.st\r\ny (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tools\\verbatim.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/environ\\environ.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/trimspaces\\trimspaces.\r\nsty))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/etoolbox\\etoolbox.sty)\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/fancyhdr\\fancyhdr.sty)\r\n (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/titlesec\\titlesec.sty\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/enumitem\\enumitem.sty)\r\n (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/fontspec\\fontspec.sty\r\n\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/l3packages/xparse\\xpar\r\nse.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/l3kernel\\expl3.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/l3backend\\l3backend-xe\r\ntex.def)))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/fontspec\\fontspec-xete\r\nx.sty (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/base\\fontenc.sty\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/fontspec\\fontspec.cfg)\r\n))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/microtype\\microtype.st\r\ny\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/microtype\\microtype-xe\r\ntex.def)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/microtype\\microtype.cf\r\ng))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/setspace\\setspace.sty)\r\n (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tools\\array.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/booktabs\\booktabs.sty)\r\n (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tools\\longtable.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/datetime\\datetime.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/fmtcount\\fmtcount.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/base\\ifthen.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/xkeyval\\xkeyval.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/xkeyval\\xkeyval.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/xkeyval\\xkvutils.tex\r\n)))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/fmtcount\\fcprefix.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/fmtcount\\fcnumparser.s\r\nty))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/amsmath\\amsgen.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/fmtcount\\fc-portuges.d\r\nef))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/datetime\\datetime-defa\r\nults.sty))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tikzpagenodes\\tikzpage\r\nnodes.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/ifoddpage\\ifoddpage.st\r\ny))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/eso-pic\\eso-pic.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/lettrine\\lettrine.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/l3packages/xfp\\xfp.sty\r\n)\r\nLoading lettrine.cfg\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/lettrine\\lettrine.cfg)\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibrarydecorations.pathmorphing.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibrarydecorations.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/modules\\pgfmodul\r\nedecorations.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/libraries/decora\r\ntions\\pgflibrarydecorations.pathmorphing.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibrarydecorations.markings.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/libraries/decora\r\ntions\\pgflibrarydecorations.markings.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibrarypatterns.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/libraries\\pgflib\r\nrarypatterns.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibraryshapes.geometric.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/libraries/shapes\r\n\\pgflibraryshapes.geometric.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibrarycalc.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibrarybackgrounds.code.tex)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/frontendlayer/ti\r\nkz/libraries\\tikzlibraryfadings.code.tex\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/pgf/libraries\\pgflib\r\nraryfadings.code.tex))\r\n\r\n! LaTeX Error: Missing \\begin{document}.\r\n\r\nSee the LaTeX manual or LaTeX Companion for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.125 +\r\n       {1em}\r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbraster.co\r\nde.tex\r\nLibrary (tcolorbox): 'tcbraster.code.tex' version '6.6.0'\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbskins.cod\r\ne.tex\r\nLibrary (tcolorbox): 'tcbskins.code.tex' version '6.6.0'\r\n\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tikzfill\\tikzfill.imag\r\ne.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tikzfill\\tikzfill-comm\r\non.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tikzfill\\tikzlibraryfi\r\nll.image.code.tex))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbskinsjigs\r\naw.code.tex\r\nLibrary (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.6.0'\r\n))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbbreakable\r\n.code.tex\r\nLibrary (tcolorbox): 'tcbbreakable.code.tex' version '6.6.0'\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/pdfcol\\pdfcol.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/ltxcmds\\ltxcmds.sty)\r\n\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/generic/infwarerr\\infwarerr.\r\nsty)))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbhooks.cod\r\ne.tex\r\nLibrary (tcolorbox): 'tcbhooks.code.tex' version '6.6.0'\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbtheorems.\r\ncode.tex\r\nLibrary (tcolorbox): 'tcbtheorems.code.tex' version '6.6.0'\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/amsmath\\amsmath.sty\r\nFor additional information on amsmath, use the `?' option.\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/amsmath\\amstext.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/amsmath\\amsbsy.sty)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/amsmath\\amsopn.sty)))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbfitting.c\r\node.tex\r\nLibrary (tcolorbox): 'tcbfitting.code.tex' version '6.6.0'\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcblistingsu\r\ntf8.code.tex\r\nLibrary (tcolorbox): 'tcblistingsutf8.code.tex' version '6.6.0'\r\n\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcblistings.\r\ncode.tex\r\nLibrary (tcolorbox): 'tcblistings.code.tex' version '6.6.0'\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/listings\\listings.sty\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/listings\\lstpatch.sty)\r\n (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/listings\\lstmisc.sty)\r\n (C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/listings\\listings.cfg\r\n))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcblistingsc\r\nore.code.tex\r\nLibrary (tcolorbox): 'tcblistingscore.code.tex' version '6.6.0'\r\n\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbprocessin\r\ng.code.tex\r\nLibrary (tcolorbox): 'tcbprocessing.code.tex' version '6.6.0'\r\n))))\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbexternal.\r\ncode.tex\r\nLibrary (tcolorbox): 'tcbexternal.code.tex' version '6.6.0'\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbmagazine.\r\ncode.tex\r\nLibrary (tcolorbox): 'tcbmagazine.code.tex' version '6.6.0'\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbvignette.\r\ncode.tex\r\nLibrary (tcolorbox): 'tcbvignette.code.tex' version '6.6.0'\r\n)\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/tcolorbox\\tcbposter.co\r\nde.tex\r\nLibrary (tcolorbox): 'tcbposter.code.tex' version '6.6.0'\r\n) (c:\\LaTeX\\build\\diretrizes_pessoais.aux)\r\n*geometry* driver: auto-detecting\r\n*geometry* detected driver: xetex\r\n\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/microtype\\mt-LatinMode\r\nrnRoman.cfg)\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.252 \\begin{titlepage}\r\n                       \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.252 \\begin{titlepage}\r\n                       \r\nMissing character: There is no + in font nullfont!\r\n[1]\r\n\r\nLaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined\r\n(Font)              using `TU/lmr/bx/n' instead on input line 305.\r\n\r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman10-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman10-regular]:mapping=tex-text;!\r\n\r\n! Package pgfkeys Error: Choice '8pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.344         ]\r\n               \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.351 \r\n      \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.351 \r\n      \r\nMissing character: There is no + in font nullfont!\r\n[1]\r\nMissing character: There is no ✦ in font [lmroman10-italic]:mapping=tex-text;!\r\nMissing character: There is no ✦ in font [lmroman10-italic]:mapping=tex-text;!\r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.356 \\end{titlepage}\r\n                     \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.356 \\end{titlepage}\r\n                     \r\nMissing character: There is no + in font nullfont!\r\n[2]\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.360 \\tableofcontents\r\n                      \r\n(c:\\LaTeX\\build\\diretrizes_pessoais.toc\r\n(C:\\Users\\Cauã V\\AppData\\Local\\Programs\\MiKTeX\\tex/latex/microtype\\mt-cmr.cfg))\r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.361 \\newpage\r\n              \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.361 \\newpage\r\n              \r\nMissing character: There is no + in font nullfont!\r\n[1]\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.364 \\section*{Resumo}\r\n                       \r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman10-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman10-regular]:mapping=tex-text;!\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.373 \\section{Preâmbulo}\r\n                         \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.373 \\section{Preâmbulo}\r\n                         \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.373 \\section{Preâmbulo}\r\n                         \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.379 \\begin{compromisso}\r\n                         \r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.386 \\FleuronBreak\r\n                   \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.386 \\FleuronBreak\r\n                   \r\nMissing character: There is no + in font nullfont!\r\n[2]\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.388 \\section{Fundamentos Pessoais}\r\n                                    \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.388 \\section{Fundamentos Pessoais}\r\n                                    \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.388 \\section{Fundamentos Pessoais}\r\n                                    \r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.390 \\subsection{Dados Biográficos}\r\n                                    \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.390 \\subsection{Dados Biográficos}\r\n                                    \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.390 \\subsection{Dados Biográficos}\r\n                                    \r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.394 \\subsection{Núcleo Familiar}\r\n                                  \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.394 \\subsection{Núcleo Familiar}\r\n                                  \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.394 \\subsection{Núcleo Familiar}\r\n                                  \r\nMissing character: There is no ≈ in font [lmroman12-regular]:mapping=tex-text;!\r\nMissing character: There is no ≈ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.406 \\subsection{Círculo Social}\r\n                                 \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.406 \\subsection{Círculo Social}\r\n                                 \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.406 \\subsection{Círculo Social}\r\n                                 \r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.408 \\subsubsection{Amizades de Longa Data}\r\n                                            \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.408 \\subsubsection{Amizades de Longa Data}\r\n                                            \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.408 \\subsubsection{Amizades de Longa Data}\r\n                                            \r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.416 \\subsubsection{Amizades Atuais}\r\n                                     \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.416 \\subsubsection{Amizades Atuais}\r\n                                     \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.416 \\subsubsection{Amizades Atuais}\r\n                                     \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.419     \\item \\textbf\r\n                       {Wellington} \\textit{``Neto''} (21 anos, nascido em \\...\r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.419     \\item \\textbf\r\n                       {Wellington} \\textit{``Neto''} (21 anos, nascido em \\...\r\n\r\nMissing character: There is no + in font nullfont!\r\n[3]\r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.427 ...ction{Histórico Acadêmico e Profissional}\r\n                                                  \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.427 ...ction{Histórico Acadêmico e Profissional}\r\n                                                  \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.427 ...ction{Histórico Acadêmico e Profissional}\r\n                                                  \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.431 \\begin{avaliacao}\r\n                       \r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.439 ...on{Diretrizes para Transformação Pessoal}\r\n                                                  \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.439 ...on{Diretrizes para Transformação Pessoal}\r\n                                                  \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.439 ...on{Diretrizes para Transformação Pessoal}\r\n                                                  \r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.441 ...Desenvolvimento Acadêmico e Profissional}\r\n                                                  \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.441 ...Desenvolvimento Acadêmico e Profissional}\r\n                                                  \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.441 ...Desenvolvimento Acadêmico e Profissional}\r\n                                                  \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.443 \\begin{objetivo}\r\n                      \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.451 \r\n      \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.451 \r\n      \r\nMissing character: There is no + in font nullfont!\r\n[4]\r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.452 \\begin{acoes}\r\n                   \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.466 \r\n      \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.466 \r\n      \r\nMissing character: There is no + in font nullfont!\r\n[5]\r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.467 \\begin{indicadores}\r\n                         \r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.476 \\ClassicDivider\r\n                     \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.476 \\ClassicDivider\r\n                     \r\nMissing character: There is no + in font nullfont!\r\n[6]\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.478 \\subsection{Saúde Física e Mental}\r\n                                        \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.478 \\subsection{Saúde Física e Mental}\r\n                                        \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.478 \\subsection{Saúde Física e Mental}\r\n                                        \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.480 \\begin{objetivo}\r\n                      \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.489 \\begin{acoes}\r\n                   \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.503 \r\n      \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.503 \r\n      \r\nMissing character: There is no + in font nullfont!\r\n[7]\r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.504 \\begin{indicadores}\r\n                         \r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.516 \\subsection{Relações Familiares}\r\n                                      \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.516 \\subsection{Relações Familiares}\r\n                                      \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.516 \\subsection{Relações Familiares}\r\n                                      \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.518 \\begin{objetivo}\r\n                      \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.526 \r\n      \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.526 \r\n      \r\nMissing character: There is no + in font nullfont!\r\n[8]\r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.527 \\begin{acoes}\r\n                   \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.541 \\begin{indicadores}\r\n                         \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.549 \r\n      \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.549 \r\n      \r\nMissing character: There is no + in font nullfont!\r\n[9]\r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.552 ...ction{Relacionamentos Afetivos e Sociais}\r\n                                                  \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.552 ...ction{Relacionamentos Afetivos e Sociais}\r\n                                                  \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.552 ...ction{Relacionamentos Afetivos e Sociais}\r\n                                                  \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.554 \\begin{objetivo}\r\n                      \r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.563 \\begin{acoes}\r\n                   \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.575 \r\n      \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.575 \r\n      \r\nMissing character: There is no + in font nullfont!\r\n[10]\r\n\r\n! Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne\r\nrs'. I am going to ignore this key.\r\n\r\nSee the pgfkeys package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.576 \\begin{indicadores}\r\n                         \r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.586 \\newpage\r\n              \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.586 \\newpage\r\n              \r\nMissing character: There is no + in font nullfont!\r\n[11]\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.588 ...os de Acompanhamento e Responsabilização}\r\n                                                  \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.588 ...os de Acompanhamento e Responsabilização}\r\n                                                  \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.588 ...os de Acompanhamento e Responsabilização}\r\n                                                  \r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman10-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman10-regular]:mapping=tex-text;!\r\n\r\n! Package titlesec Error: Entered in horizontal mode.\r\n\r\nSee the titlesec package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.606 \\section{Declaração Final}\r\n                                \r\n! Missing number, treated as zero.\r\n<to be read again> \r\n                   \\relax \r\nl.606 \\section{Declaração Final}\r\n                                \r\n! Illegal unit of measure (pt inserted).\r\n<to be read again> \r\n                   \\relax \r\nl.606 \\section{Declaração Final}\r\n                                \r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.611 \r\n      \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.611 \r\n      \r\nMissing character: There is no + in font nullfont!\r\n[12]\r\nMissing character: There is no ❦ in font [lmroman17-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\nMissing character: There is no ❧ in font [lmroman12-regular]:mapping=tex-text;!\r\n\r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.638 \\end{document}\r\n                    \r\nMissing character: There is no + in font nullfont!\r\nMissing character: There is no + in font nullfont!\r\n\r\n! Package tikz Error: Cannot parse this coordinate.\r\n\r\nSee the tikz package documentation for explanation.\r\nType  H <return>  for immediate help.\r\n ...                                              \r\n                                                  \r\nl.638 \\end{document}\r\n                    \r\nMissing character: There is no + in font nullfont!\r\n[13] (c:\\LaTeX\\build\\diretrizes_pessoais.aux)\r\n\r\nLaTeX Font Warning: Some font shapes were not available, defaults substituted.\r\n\r\n )\r\n(see the transcript file for additional information)\r\nOutput written on c:\\LaTeX\\build\\diretrizes_pessoais.pdf (16 pages).\r\nSyncTeX written on c:\\LaTeX\\build/diretrizes_pessoais.synctex.gz.\r\nTranscript written on c:\\LaTeX\\build\\diretrizes_pessoais.log.\r\n\n",
+  "diagnostics": [
+    {
+      "line": 0,
+      "message": "LaTeX Error: Missing \\begin{document}.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '8pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 373,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 373,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 388,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 388,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 390,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 390,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 394,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 394,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 406,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 406,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 408,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 408,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 416,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 416,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 427,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 427,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 439,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 439,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 441,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 441,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 478,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 478,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 516,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 516,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 552,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 552,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package pgfkeys Error: Choice '5pt' unknown in choice key '/tcb/rounded corne",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 588,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 588,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package titlesec Error: Entered in horizontal mode.",
+      "severity": "error"
+    },
+    {
+      "line": 606,
+      "message": "Missing number, treated as zero.",
+      "severity": "error"
+    },
+    {
+      "line": 606,
+      "message": "Illegal unit of measure (pt inserted).",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    },
+    {
+      "line": 0,
+      "message": "Package tikz Error: Cannot parse this coordinate.",
+      "severity": "error"
+    }
+  ]
+}

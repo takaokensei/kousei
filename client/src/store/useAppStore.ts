@@ -1,5 +1,5 @@
 import { create } from 'zustand';
-import { TauriBridge, Diagnostic } from '../services/TauriBridge';
+import { TauriBridge, type Diagnostic } from '../services/TauriBridge';
 import { convertFileSrc } from '@tauri-apps/api/core';
 
 interface AppState {
@@ -34,16 +34,20 @@ export const useAppStore = create<AppState>((set) => ({
         const mainFile = 'diretrizes_pessoais.tex';
 
         const result = await TauriBridge.compile(projectPath, mainFile);
+        console.log('[AppStore] Compile Result:', result);
 
         if (result.success && result.pdf_path) {
             // Convert absolute local path to Tauri resource URL + cache busting
             const assetUrl = convertFileSrc(result.pdf_path);
             const timestamp = new Date().getTime();
+            console.log('[AppStore] Asset URL:', assetUrl);
+
             set({
-                pdfUrl: `\${assetUrl}?t=\${timestamp}`,
+                pdfUrl: `${assetUrl}?t=${timestamp}`,
                 diagnostics: result.diagnostics
             });
         } else {
+            console.error('[AppStore] Compilation Failed or No PDF:', result.logs);
             set({ diagnostics: result.diagnostics });
         }
 

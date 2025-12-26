@@ -19,12 +19,12 @@ function App() {
   return (
     <div className="h-screen w-screen flex flex-col bg-bg text-text overflow-hidden">
       {/* Header / Toolbar */}
-      <header className="h-14 glass flex items-center justify-between px-4 z-20 shadow-md">
-        <div className="flex items-center gap-2">
+      <header data-tauri-drag-region className="h-14 glass flex items-center justify-between px-4 z-20 shadow-md flex-shrink-0">
+        <div className="flex items-center gap-2 pointer-events-none">
           <div className="w-3 h-3 rounded-full bg-red-500" />
           <div className="w-3 h-3 rounded-full bg-yellow-500" />
           <div className="w-3 h-3 rounded-full bg-green-500" />
-          <span className="ml-4 font-bold text-lg text-white font-mono tracking-tight">Kousei <span className="text-accent-blue font-normal text-xs align-top">v1.0</span></span>
+          <span className="ml-4 font-bold text-lg text-white font-mono tracking-tight">Kousei <span className="text-accent-blue font-normal text-xs align-top">v1.1</span></span>
         </div>
 
         <div className="flex items-center gap-4">
@@ -44,8 +44,8 @@ function App() {
       </header>
 
       {/* Main Workspace */}
-      <main className="flex-1 relative">
-        <PanelGroup direction="horizontal">
+      <main className="flex-1 relative flex flex-col min-h-0">
+        <PanelGroup direction="horizontal" className="flex-1">
 
           {/* Editor Area */}
           <Panel defaultSize={50} minSize={20}>

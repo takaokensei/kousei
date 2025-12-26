@@ -20,12 +20,13 @@ const PreviewPanel: React.FC = () => {
             {/* PDF Viewer */}
             {pdfUrl ? (
                 <iframe
-                    src={pdfUrl + "#toolbar=0&view=FitH"}
-                    className="w-full h-full border-none"
+                    key={pdfUrl} // Force re-render on URL change
+                    src={pdfUrl}
+                    className="w-full h-full border-none bg-white"
                     title="PDF Preview"
                 />
             ) : (
-                <div className="flex-1 flex items-center justify-center text-gray-500">
+                <div className="flex-1 flex items-center justify-center text-gray-500 select-none">
                     <p>No PDF generated yet. Press "Compile" to start.</p>
                 </div>
             )}

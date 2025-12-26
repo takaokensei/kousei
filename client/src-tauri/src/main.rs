@@ -25,12 +25,11 @@ async fn compile_latex(project_path: String, main_file: String) -> Result<Compil
     println!("Compiling {} in {}", main_file, project_path);
 
     // 1. Prepare Command
-    // Usage of explicit xelatex command assumes it is in PATH as configured in capabilities
-    let output = Command::new("xelatex")
+    // Using absolute path to guarantee execution (MiKTeX)
+    let output = Command::new(r"C:\Users\Cauã V\AppData\Local\Programs\MiKTeX\miktex\bin\x64\xelatex.exe")
         .args(&[
             "-interaction=nonstopmode",
             "-synctex=1",
-            "-output-directory=build",
             &main_file
         ])
         .current_dir(&project_path)
@@ -49,7 +48,8 @@ async fn compile_latex(project_path: String, main_file: String) -> Result<Compil
     // Usually non-zero on fatal, but let's check PDF existence too.
     
     let pdf_filename = main_file.replace(".tex", ".pdf");
-    let pdf_path = Path::new(&project_path).join("build").join(&pdf_filename);
+    // Look for PDF in root (since we removed output-directory)
+    let pdf_path = Path::new(&project_path).join(&pdf_filename);
     
     // Simple check: if PDF exists and is recent (optional complexity), we consider it partial success.
     // Generally checking exit code is good, but latex is quirky.
@@ -104,6 +104,8 @@ fn parse_latex_logs(log: &str) -> Vec<Diagnostic> {
 fn main() {
     tauri::Builder::default()
         .plugin(tauri_plugin_log::Builder::default().build())
+        .plugin(tauri_plugin_shell::init())
+        .plugin(tauri_plugin_fs::init())
         .invoke_handler(tauri::generate_handler![compile_latex])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

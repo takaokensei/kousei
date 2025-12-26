@@ -11,10 +11,11 @@
     <a href="#getting-started">Getting Started</a>
   </p>
 
+  ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+  ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=black)
   ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
   ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
   ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
-  ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
   ![License](https://img.shields.io/badge/License-MIT-blue?style=flat-square)
 </div>
 
@@ -22,28 +23,32 @@
 
 ## ⛩️ About The Project
 
-**Kousei** answers a simple question: *Why does compiling a local document require a browser round-trip to a cloud server?*
+**Kousei** answers a simple question: *Why does compiling a local document require a browser round-trip or a bloated Electron app?*
 
-Designed for engineers and researchers who need the power of **MiKTeX/TeXLive** with the modern DX (Developer Experience) of **VS Code**, but without the bloat.
+It is a **Native Desktop Application** designed for engineers and researchers who need the power of **MiKTeX/TeXLive** with the modern DX (Developer Experience) of **VS Code**.
 
 ### Key Differentiators
-* ⚡ **Local-First Kernel:** Compiles directly using your machine's CPU and LaTeX distribution. No queues, no timeouts.
+* ⚡ **Rust-Powered Kernel:** Built on **Tauri v2**, providing near-instant startup and minimal memory footprint compared to Electron.
+* 🛡️ **Native Performance:** Compiles directly using your machine's CPU and local LaTeX distribution via secure Rust IPC.
 * 💎 **Glassmorphism UI:** A distraction-free, aesthetic writing environment using the Tokyo Night palette.
 * 🧠 **Intelligent Logs:** Parses cryptic LaTeX errors into actionable, line-by-line diagnostics in the editor.
 * 🏗️ **Monaco Engine:** Uses the same text editor core as VS Code for superior syntax highlighting and shortcuts.
 
 ## 🏗️ Architecture
 
-Kousei operates on a client-server architecture running locally:
+Kousei operates as a monolithic desktop executable:
 
-* **Client (`/client`):** React 18 + Vite. Manages the editor state, file tree, and PDF visualization (PDF.js).
-* **Server (`/server`):** Node.js Express. Acts as a bridge to the OS `child_process`, spawning `xelatex` jobs and streaming logs via WebSockets/REST.
+* **Frontend:** React 18 + Vite running in the OS WebView (WebView2 on Windows).
+* **Backend (Core):** Rust. Handles the `xelatex` child processes, file system access, and log parsing using highly optimized Regex.
+* **Bridge:** Asynchronous message passing (IPC) between React and Rust.
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-* Node.js (v18+)
-* MiKTeX or TeX Live installed and added to PATH.
+* **Rust**: `rustc` and `cargo` (via rustup).
+* **Node.js**: v18+.
+* **LaTeX**: MiKTeX or TeX Live installed and added to PATH.
+* **Tauri Utility**: `npm install -g @tauri-apps/cli` (Optional, but recommended).
 
 ### Installation
 
@@ -51,12 +56,21 @@ Kousei operates on a client-server architecture running locally:
 # Clone the repository
 git clone https://github.com/takaokensei/kousei.git
 
-# Install dependencies (Root)
-npm install
+# Navigate to Client
+cd kousei/client
 
-# Start the Development Suite (Client + Server)
-npm run dev
+# Install dependencies
+npm install
 ```
+
+### Development
+
+```bash
+# Start the Local Development Suite (Rust + Vite)
+npm run tauri dev
+```
+
+This will compile the Rust core and launch the Native Window.
 
 ---
 
